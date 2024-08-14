@@ -1,0 +1,6 @@
+.PROGRAM Main()
+        CALL Init
+        CALL SPIF
+        LMOVE SHIFT (curpos BY 0, 0, 50)
+        PRINT "Program finished"
+.END

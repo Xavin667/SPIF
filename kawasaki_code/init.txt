@@ -1,0 +1,10 @@
+.PROGRAM Init()
+        ACCURACY 0 ALWAYS                 ; Default accuracy
+        SPEED 10 mm/s ALWAYS                    ; Default Speed
+        ABS.SPEED OFF                       ; Switch off absolute speed
+        PALMODE OFF                         ; Switch off palletizing mode
+        QTOOL OFF                           ; Switch off block tool
+        ZTCHSPDCHKAS ON                     ; Switch on speed check for real robot
+        ;ZTCHSPDCHKAS OFF                    ; Switch off speed check for virtual robot (K-Roset)
+        ;WEIGHT Wg_t_m, Wg_t_x, Wg_t_y, Wg_t_z  ; WEIGHT <Mass>, <x>, <y>, <z> (center of gravity)
+.END
